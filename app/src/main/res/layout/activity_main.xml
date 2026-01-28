@@ -33,7 +33,7 @@
 
     <!-- Input: Search Keyword -->
     <EditText
-        android:id="@+id/editTextSeachKeyword"
+        android:id="@+id/editTextSearchKeyword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Search Keyword (e.g. technology)"

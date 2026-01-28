@@ -8,7 +8,7 @@ public interface GNewsApiService
 {
     @GET("top-headlines")
     Call<NewsResponse> getTopHeadlines(
-            @Query("apiKey") String apiKey,
+            @Query("apikey") String apiKey,
             @Query("lang") String language,
             @Query("max") int maxArticles
     );
@@ -17,6 +17,6 @@ public interface GNewsApiService
             @Query("q") String query,
             @Query("lang") String language,
             @Query("max") int maxArticles,
-            @Query("apiKey") String apiKey
+            @Query("apikey") String apiKey
     );
 }
